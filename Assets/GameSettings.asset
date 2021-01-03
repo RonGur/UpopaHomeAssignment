@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6511f29c702eb914badb3a4005bff98f, type: 3}
+  m_Name: GameSettings
+  m_EditorClassIdentifier: 
+  rotateRightKey: 100
+  fireKey: 32
+  rotateLeftKey: 97
+  maxHealth: 1000
+  healthInitialDecreaseRate: 1
+  healthDecreaseVal: 50
+  increaseHealthDecreaseInterval: 5
+  healthDecreaseAmount: 5
+  rotationSpeed: 80
+  rotationDragFactor: 2
+  forwardSpeed: 2
+  asteroidMovementSpeed: 5
+  redAsteroidExplosionMultiplier: 3
+  chanceToGetPickable_inPercents: 50
+  chanceToSpawnBlueAsteroid_inPrecents: 70
+  chanceToSpawnRedAsteroid_inPrecents: 20
+  asteroidSpawnTimeInterval: 0.5
+  maxAsteroidsAmount: 20
+  greyBordersPixelsOffset: 200
+  bulletSpeed: 5
+  bulletLifeTime: 3
+  pickableItemHealthBonus: 1000
+  pickableItemPointsBonus: 50
