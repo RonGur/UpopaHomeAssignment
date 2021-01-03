@@ -87,9 +87,6 @@ public class SlaveHandler : MonoBehaviour
     {
         xDistance = Vector3.Distance(rightBorderTransform.position, leftBorderTransform.position);
         yDistance = Vector3.Distance(upperBorderTransform.position, lowerBorderTransform.position);
-
-        print(this.name + " x distance is: " + xDistance);
-        print(yDistance);
     }
 
     public void OnSlaveHandlerLeftBound(CycleBoundary boundary)
